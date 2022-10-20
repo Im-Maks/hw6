@@ -1,95 +1,224 @@
 .all {
-    max-width: 1440px;
-    width: 100%;
-    margin: 0 auto;
-  }
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  margin-left: 75px;
+}
   
-  .row {
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  .header {
-    margin: 64px 0 0 0;
-  }
-  .header .nav .nav_b {
-    display: flex;
-  }
-  .header .nav .nav_b li {
-    margin: 0 0 0 51.2px;
-  }
-  .header .nav .nav_b li a {
-    font-family: "Raleway", sans-serif;
-    font-style: normal;
-    font-weight: 400px;
-    font-size: 16px;
-    line-height: 19px;
-    color: #07043b;
-    text-decoration: none;
-  }
-  
-  .f {
-    display: flex;
-    align-items: center;
-    padding: 110px 0 0 0;
-  }
-  .f .f_cont h1 {
-    margin: 0 0 19px 0;
-    font-family: "Raleway", sans-serif;
-    font-style: normal;
-    font-weight: 700px;
-    font-size: 40px;
-    color: #07043b;
-    line-height: 60px;
-  }
-  .f .f_cont p {
-    margin: 0 0 2vh 0;
-    font-family: "Raleway", sans-serif;
-    font-style: normal;
-    font-weight: 400px;
-    font-size: 17px;
-    color: #07043b;
-    line-height: 24px;
-    letter-spacing: 0.53125px;
-  }
-  .f .f_cont_cta {
-    display: flex;
-    align-items: center;
-  }
-  .f .f_cont input {
-    padding: 16px 96px 16px 16px;
-    margin: 0 16px 0 0;
-    width: 100%;
-    height: 100%;
-    max-width: 320px;
-    max-height: 45px;
-    font-weight: 400px;
-    font-size: 14px;
-    line-height: 19px;
-    color: #c2c2c2;
-    font-family: "Raleway", sans-serif;
-    font-style: normal;
-    letter-spacing: 0.466667px;
-  }
-  .f .f_cont button {
-    width: 100%;
-    height: 100%;
-    max-width: 200px;
-    max-height: 45px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: #2f65f8;
-    box-shadow: 1px 1px 1px black;
-    border-radius: 1px;
-    font-family: "Raleway", sans-serif;
-    font-style: normal;
-    font-weight: 700px;
-    font-size: 14px;
-    line-height: 19px;
-    color: #ffffff;
-    padding: 15px 50px;
-  }
-  .f .f_img img {
-    margin: 0 0 0 80px;
-  }
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+.header {
+  position: relative;
+  margin: 64px 0 0 0;
+}
+.header .nav .nav_b {
+  display: flex;
+  margin-right: 50px;
+}
+.header .nav .nav_b li {
+  margin: 0 0 0 51.2px;
+}
+.header .nav .nav_b li a {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #07043b;
+  text-decoration: none;
+}
+.f {
+  display: flex;
+  align-items: center;
+  padding: 110px 0 0 0;
+}
+.f .f_cont h1 {
+  width: 627px;
+  height: 120px;
+  margin: 0 0 19px 0;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  color: #07043b;
+  line-height: 60px;
+}
+.f .f_cont p {
+  width: 585px;
+  height: 72px;
+  margin: 0 0 2vh 0;
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 400px;
+  font-size: 17px;
+  color: #07043b;
+  line-height: 24px;
+  letter-spacing: 0.53125px;
+}
+.f .f_cont_cta {
+  display: flex;
+  align-items: center;
+}
+.f .f_cont input {
+  padding: 16px 96px 16px 16px;
+  margin: 0 16px 0 0;
+  width: 100%;
+  height: 100%;
+  max-width: 320px;
+  max-height: 45px;
+  font-weight: 400px;
+  font-size: 14px;
+  line-height: 19px;
+  color: #c2c2c2;
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  letter-spacing: 0.466667px;
+}
+.f .f_cont button {
+  width: 100%;
+  height: 100%;
+  max-width: 200px;
+  max-height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 700px;
+  font-size: 14px;
+  background: #2F65F8;
+  box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.15925);
+  border-radius: 3.125px;
+  border: none;
+  line-height: 19px;
+  color: #ffffff;
+  padding: 15px 50px;
+}
+.f .f_img img {
+  margin: 0 0 0 80px;
+}
+.center{
+  margin-top: 180px;
+}
+.img1{
+  width: 1518px;
+  position: absolute;
+}
+.team{
+  position: relative;
+  max-width: 1440px;
+  width: 100%;
+}
+.t_cont{
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  left: 75px;
+  top: 155px;
+}
+.team .t_cont h2{
+  padding: 29px 0px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  color: #07043b;
+  line-height: 47px;
+}
+.team .t_cont p{
+  width: 525px;
+  margin: 0 0 2vh 0;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #07043b;
+  line-height: 24px;
+}
+.team .t_cont a{
+  color: #3DA08F;
+  font-family: 'Open Sans';
+  font-style: normal;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+}
+.und_l{
+  position: absolute;
+  width: 153px;
+  height: 1px;
+  top: 253px;
+  left: -1px;
+  background-color: #3DA08F;
+}
+.team .link .und_l i{
+  position: absolute;
+  color: #3DA08F;
+  font-size: 13px;
+  bottom: 5px;
+  left: 138px;
+}
+.t_cont_col{
+  position: absolute;
+  width: 356px;
+  height: 215px;
+  top: 300px;
+  box-shadow: 0px 0px 10px 5px rgba(56, 56, 56, 0.0458843);
+  border-radius: 6px;
+}
+.team .t_cont .t_cont_col p{
+  padding: 9px 0px 0px 33px;
+  width: auto;
+  font-family: 'Open Sans';
+  font-style: normal;
+  left: 0px;
+  top: 0px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.8px;
+}
+.team .t_cont .t_cont_col i{
+  padding: 33px 0px 0px 33px;
+  left: 0px;
+  top: 0px;
+  color: black;
+  cursor: pointer;
+}
+.team .t_cont .t_cont_col_user{
+  position: absolute;
+  padding-left: 33px;
+  width: 200px;
+  height: 30px;
+}
+.team .t_cont .t_cont_col_user h3{
+  position: absolute;
+  font-family: 'Open Sans';
+  font-style: normal;
+  left: 75px;
+  bottom: 12px;
+  font-weight: 700;
+  font-size: 11px;
+  line-height: 15px;
+  letter-spacing: 0.55px;
+
+}
+.team .t_cont .t_cont_col_user p{
+  position: absolute;
+  font-family: 'Open Sans';
+  font-style: normal;
+  left: 42px;
+  top: 10px;
+  font-weight: 400;
+  font-size: 8px;
+  line-height: 15px;
+  letter-spacing: 0.4px;
+}
+.center_img{
+  position: absolute;
+  right: 40px;
+  top: 210px;
+}
